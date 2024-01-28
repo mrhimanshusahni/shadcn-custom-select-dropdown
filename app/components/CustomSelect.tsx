@@ -18,7 +18,7 @@ interface Props {
   isListOptionsLoading?: boolean | null;
   selectedItem: any;
   disabled?: boolean;
-  isSelectListLabelEnable?: false;
+  isSelectListLabelEnable?: boolean;
   callBack: any;
 }
 

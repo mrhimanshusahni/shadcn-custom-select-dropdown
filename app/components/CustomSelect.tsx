@@ -121,7 +121,7 @@ function SelectBase({
   return (
     <Select
       onValueChange={(value: any) => handleSelectChange(JSON.parse(value))}
-      value={JSON.stringify(selectedItem)}
+      value={selectedItem ? JSON.stringify(selectedItem): ""}
       disabled={disabled}
     >
       <SelectTrigger className="w-full border border-[#CECECE] shadow-md">
